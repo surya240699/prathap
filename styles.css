@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h1{
+    color: rgb(186, 30, 30);
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+}
+p{
+    margin-right: 79px;
+    margin-left: 79px;
+    margin-top: 150px;
+    color:grey;
+}
+img{
+    margin-right: 0px;
+    margin-left: 400px;
+    margin-bottom: 0px;
+    margin-top: -100;
+}
+.insta{
+    width: 100px;
+    margin-left: 710px;
+    margin-top: 0px;
+}
