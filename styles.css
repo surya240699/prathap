@@ -1,25 +1,120 @@
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+.log{
+    background-image: url("5499943.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.1);
+    outline: none;
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border:none ;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color:black;
+    background:rgb(71, 180, 71);
+    cursor: pointer;
+    transition: .3s ;
+    
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #fff;
+}
 body{
     background-color: black;
 }
-h1{
-    color: rgb(186, 30, 30);
-    font-family: "Sofia", sans-serif;
-    font-size: 30px;
-}
-p{
-    margin-right: 79px;
-    margin-left: 79px;
-    margin-top: 150px;
-    color:grey;
-}
-img{
-    margin-right: 0px;
-    margin-left: 400px;
-    margin-bottom: 0px;
-    margin-top: -100;
+.animal{
+width: 100px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+margin-top: -90px;
+margin-left: 570px;
 }
 .insta{
+    
     width: 100px;
     margin-left: 710px;
-    margin-top: 0px;
+}
+.face{
+    
+    width: 49px;
+    margin-bottom: 0px;
+    margin-top: -48;
+    margin-left: 670px;
+}
+.mail{
+    
+    width: 80px;
+    margin-top: -73px;
+    margin-left: 790px;
+    padding-top: 0px;
+    height: 90px;
 }
